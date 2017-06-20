@@ -7,20 +7,19 @@ $radio=$_POST["radio"];
 	if (is_numeric($N1) &&	is_numeric($N2) )
      switch($radio)
 	  {
-		case "Sumar": { $result=$N1+$N2;
-			           echo("$N1 + $N2  = $result");
-					  break; } 
-		case "Restar":	{ $result=$N1 - $N2;
-			           echo("$N1 - $N2  = $result");
+		
 					  break; } 
 		case "Multiplicar":	{ $result=$N1*$N2;
 			           echo("$N1 x $N2  = $result");
 					  break; } 
 				
+
 		case "DividirPPPPPPPP":	{ if ($N2!=9) {
+
+		case "Divxxxxxidir":	{ if ($N2!=9) {
+
 			                $result=$N1/$N2;
-			                echo("$N1 / $N2  = $result");}
-						  else echo("DIVISIÓN POR CERO");
+			                e
 					  break; } 
 
 	} /* Fin del switch. */
