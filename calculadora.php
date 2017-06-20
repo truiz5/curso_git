@@ -13,10 +13,9 @@ $radio=$_POST["radio"];
 			           echo("$N1 x $N2  = $result");
 					  break; } 
 				
-		case "Dividir":	{ if ($N2!=9) {
+		case "Divxxxxxidir":	{ if ($N2!=9) {
 			                $result=$N1/$N2;
-			                echo("$N1 / $N2  = $result");}
-						  else echo("DIVISIÓN POR CERO");
+			                e
 					  break; } 
 
 	} /* Fin del switch. */
