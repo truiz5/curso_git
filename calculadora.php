@@ -25,7 +25,7 @@ $radio=$_POST["radio"];
 
 	} /* Fin del switch. */
 	
-	else {echo ("Error: No se ha introducido alguno de los números<br>");
+	else {echo ("Error: QUE DEDASTETRE No se ha introducido alguno de los números<br>");
 	      //header("Location:calculadora.html"); 
            
            }
