@@ -1,4 +1,4 @@
-﻿
+
 <?php
 $N1=$_POST["N1"];
 $N2=$_POST["N2"];
@@ -17,7 +17,7 @@ $radio=$_POST["radio"];
 			           echo("$N1 x $N2  = $result");
 					  break; } 
 				
-		case "Dividir":	{ if ($N2!=0) {
+		case "Dividir":	{ if ($N2!=9) {
 			                $result=$N1/$N2;
 			                echo("$N1 / $N2  = $result");}
 						  else echo("DIVISIÓN POR CERO");
