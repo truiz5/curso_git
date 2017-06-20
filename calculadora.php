@@ -7,11 +7,7 @@ $radio=$_POST["radio"];
 	if (is_numeric($N1) &&	is_numeric($N2) )
      switch($radio)
 	  {
-		case "Sumar": { $result=$N1+$N2;
-			           echo("$N1 + $N2  = $result");
-					  break; } 
-		case "Restar":	{ $result=$N1 - $N2;
-			           echo("$N1 - $N2  = $result");
+		
 					  break; } 
 		case "Multiplicar":	{ $result=$N1*$N2;
 			           echo("$N1 x $N2  = $result");
