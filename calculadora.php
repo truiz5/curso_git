@@ -30,5 +30,5 @@ $radio=$_POST["radio"];
            
            }
 
-echo("<a href='calculadora.html'>Volver a la Calculadora</a>");	
+e
 ?>
