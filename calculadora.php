@@ -14,7 +14,7 @@ $radio=$_POST["radio"];
 					  break; } 
 				
 
-		case "DividirPPPPPPPP":	{ if ($N2!=9) {
+		
 
 		case "Divxxxxxidir":	{ if ($N2!=9) {
 
